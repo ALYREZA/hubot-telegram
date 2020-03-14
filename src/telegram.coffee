@@ -1,6 +1,6 @@
 {Robot, Adapter, TextMessage, EnterMessage, LeaveMessage, TopicMessage, CatchAllMessage, User} = require 'hubot'
 telegrambot = require 'telegrambot'
-
+require('dotenv').config()
 class Telegram extends Adapter
 
   constructor: ->

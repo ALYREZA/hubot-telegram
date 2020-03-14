@@ -27,11 +27,12 @@
   },
   "homepage": "https://github.com/lukefx/hubot-telegram",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "telegrambot": "*"
   },
   "devDependencies": {
-    "hubot": "*",
     "coffee-script": "*",
+    "hubot": "*",
     "mocha": "*"
   }
 }
